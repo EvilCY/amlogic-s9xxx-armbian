@@ -15,10 +15,10 @@ on:
         default: "jammy"
         type: choice
         options:
-          - jammy
+          #//- jammy
           - bullseye
-          - lunar
-          - bookworm
+          #//- lunar
+          #//- bookworm
       armbian_fstype:
         description: "Select armbian rootfs type."
         required: false
